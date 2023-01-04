@@ -24,7 +24,7 @@ const Header = () => (
           <button
             className="hamburger-icon-button"
             type="button"
-            testid="hamburgerIconButton"
+            data-testid="hamburgerIconButton"
           >
             <GiHamburgerMenu size="30" />
           </button>
@@ -36,7 +36,7 @@ const Header = () => (
             <button
               className="close-button"
               type="button"
-              testid="closeButton"
+              data-testid="closeButton"
               onClick={() => close()}
             >
               <IoMdClose size="30" color="#616e7c" />

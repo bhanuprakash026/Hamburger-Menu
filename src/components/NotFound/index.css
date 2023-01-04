@@ -1,1 +1,38 @@
 /* Write your CSS here */
+.not-found-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+.not-found-image {
+  height: 450px;
+  width: 550px;
+}
+@media (max-width: 767px) {
+  .not-found-image {
+    height: 200px;
+    width: 215px;
+  }
+}
+.header-notfound {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+  color: #616e7c;
+}
+@media (max-width: 767px) {
+  .header-notfound {
+    font-size: 28px;
+  }
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #616e7c;
+}
